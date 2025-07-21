@@ -1,0 +1,50 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Counter5.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Reg5.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Adder5.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/CountUpDown.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/rouletteDisplay.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/reg_5bit.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/dec_3_8.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/dec2hex.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/SRCSerialReceiver.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/SRC.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/ShiftRegister8.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RingBufferControl.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RingBuffer.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RAM.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/OutputBuffer.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Mux4_MAC.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/MemoryAddressControl.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/BufferControl.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/FFD.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Adder4.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Reg4.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Mux4.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Dec4.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Counter4.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Counter3.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/UsbPort.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/KeyScan.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/FullAdder.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/KeyControl.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/KeyDecode.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/KeyboardReader.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Roleta.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/ClkDiv.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/LCDSerialReceiver.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/SerialControl.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/ParityCheck.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/ShiftRegister5.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Adder3.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/Reg3.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/LCDDispatcher.vhd}
+vcom -93 -work work {C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/SLCDC.vhd}
+

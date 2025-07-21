@@ -1,0 +1,140 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Roleta_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Error (suppressible): (vdel-19) Failed to access library 'rtl_work' at "rtl_work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'rtl_work' is missing or is not a valid ModelSim library.
+# ** Error: C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./Roleta_run_msim_rtl_vhdl.do line 4
+# C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vdel" line 6)
+#     invoked from within
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
+vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:08 on Jun 20,2025
+# vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RouletteDispatcher_TB
+# -- Compiling architecture logicFunction of RouletteDispatcher_TB
+# End time: 13:06:08 on Jun 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:06:10 on Jun 20,2025
+# vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RouletteDispatcher_TB
+# -- Compiling architecture logicFunction of RouletteDispatcher_TB
+# End time: 13:06:11 on Jun 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.roulettedispatcher_tb
+# vsim work.roulettedispatcher_tb 
+# Start time: 13:06:25 on Jun 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.roulettedispatcher_tb(logicfunction)
+# Loading work.roulettedispatcher(logicfunction)
+add wave -position insertpoint  \
+sim:/roulettedispatcher_tb/Reset_TB \
+sim:/roulettedispatcher_tb/Dval_TB \
+sim:/roulettedispatcher_tb/Din_TB \
+sim:/roulettedispatcher_tb/CLK_TB \
+sim:/roulettedispatcher_tb/WrD_TB \
+sim:/roulettedispatcher_tb/Dout_TB \
+sim:/roulettedispatcher_tb/done_TB
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ricar  Hostname: DESKTOP-N3VBLL8  ProcessID: 6952
+#           Attempting to use alternate WLF file "./wlftxvnywz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxvnywz
+run
+vcom -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:07:28 on Jun 20,2025
+# vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RouletteDispatcher_TB
+# -- Compiling architecture logicFunction of RouletteDispatcher_TB
+# End time: 13:07:28 on Jun 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:07:32 on Jun 20,2025
+# vcom -reportprogress 300 -work work C:/Users/berna/Documents/ISEL/Semestre2/LIC/Roleta-VHDL/RouletteDispatcher_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RouletteDispatcher_TB
+# -- Compiling architecture logicFunction of RouletteDispatcher_TB
+# End time: 13:07:32 on Jun 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.roulettedispatcher_tb
+# End time: 13:07:45 on Jun 20,2025, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim work.roulettedispatcher_tb 
+# Start time: 13:07:45 on Jun 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.roulettedispatcher_tb(logicfunction)
+# Loading work.roulettedispatcher(logicfunction)
+add wave -position insertpoint  \
+sim:/roulettedispatcher_tb/Reset_TB \
+sim:/roulettedispatcher_tb/Dval_TB \
+sim:/roulettedispatcher_tb/Din_TB \
+sim:/roulettedispatcher_tb/CLK_TB \
+sim:/roulettedispatcher_tb/WrD_TB \
+sim:/roulettedispatcher_tb/Dout_TB \
+sim:/roulettedispatcher_tb/done_TB
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ricar  Hostname: DESKTOP-N3VBLL8  ProcessID: 6952
+#           Attempting to use alternate WLF file "./wlft4a2899".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4a2899
+run
+vsim work.roulettedispatcher_tb
+# End time: 13:09:47 on Jun 20,2025, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 2
+# vsim work.roulettedispatcher_tb 
+# Start time: 13:09:47 on Jun 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.roulettedispatcher_tb(logicfunction)
+# Loading work.roulettedispatcher(logicfunction)
+add wave -position insertpoint  \
+sim:/roulettedispatcher_tb/Reset_TB \
+sim:/roulettedispatcher_tb/Dval_TB \
+sim:/roulettedispatcher_tb/Din_TB \
+sim:/roulettedispatcher_tb/CLK_TB \
+sim:/roulettedispatcher_tb/WrD_TB \
+sim:/roulettedispatcher_tb/Dout_TB \
+sim:/roulettedispatcher_tb/done_TB
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ricar  Hostname: DESKTOP-N3VBLL8  ProcessID: 6952
+#           Attempting to use alternate WLF file "./wlftj1xnyh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj1xnyh
+add wave -position insertpoint  \
+sim:/roulettedispatcher_tb/UUT/state \
+sim:/roulettedispatcher_tb/UUT/next_state
+run
+run
+# End time: 14:25:28 on Jun 20,2025, Elapsed time: 1:15:41
+# Errors: 0, Warnings: 2

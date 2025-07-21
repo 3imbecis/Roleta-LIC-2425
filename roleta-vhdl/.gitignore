@@ -1,0 +1,32 @@
+# Ficheiros temporários do Quartus
+db/
+incremental_db/
+output_files/
+*.rpt
+*.smsg
+*.chg
+*.cmp
+*.lck
+*.bak
+*.pof
+*.sof
+*.jam
+*.jbc
+*.ekp
+*.saf
+*.idf
+*.summary
+*.pin
+*.qws
+*.qsf~
+*.rdr*
+*.flock
+*.raw
+*.qmsg
+
+# ModelSim/Simulation
+simulation/modelsim/rtl_work/
+*.wlf
+transcript
+vsim.wlf
+work/
